@@ -34,15 +34,17 @@ const FloatingUI = () => {
             Start play
           </motion.button>
         </Link>
-        <motion.button
-          className="py-2 px-8 text-xl rounded-md bg-white text-[#1e1e20] font-semibold shadow-lg transform transition-transform duration-300 hover:scale-105"
-          initial={{ scale: 0.8, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-          transition={{ delay: 0.7, type: "spring", stiffness: 100 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          GitHub
-        </motion.button>
+        <Link href="https://github.com/LihuelZerega/QuestMinds">
+          <motion.button
+            className="py-2 px-8 text-xl rounded-md bg-white text-[#1e1e20] font-semibold shadow-lg transform transition-transform duration-300 hover:scale-105"
+            initial={{ scale: 0.8, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ delay: 0.7, type: "spring", stiffness: 100 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            GitHub
+          </motion.button>
+        </Link>
       </div>
     </div>
   );
