@@ -1,0 +1,186 @@
+.floating-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('../assets/images/Background.png');
+  color: white;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+  
+  .title {
+    font-size: 3em;
+    margin-bottom: 2em;
+  }
+  
+  .floating-items {
+    position: relative;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .item {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+  }
+  
+  .item1 {
+    top: 10%;
+    left: 10%;
+  }
+  
+  .item2 {
+    top: 80%;
+    left: 20%;
+  }
+  
+  .item3 {
+    top: 50%;
+    left: 80%;
+  }
+  
+  .item4 {
+    top: 10%;
+    right: 10%;
+  }
+  
+  .balloon {
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 1em;
+    margin-top: 2em;
+  }
+  
+  button {
+    background-color: #3f3f44;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #535357;
+  }
+  
+  .get-started {
+    background-color: #4a4aee;
+  }
+  
+  .get-started:hover {
+    background-color: #6262ff;
+  }
+  
+
+  .floating-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1a1a2e;
+    color: white;
+    position: relative;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+  }
+  
+  .floating-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .item {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.3;
+    margin: 0 10px;
+  }
+  
+  .item1 { background-color: #e74c3c; }
+  .item2 { background-color: #3498db; }
+  .item3 { background-color: #2ecc71; }
+  .item4 { background-color: #f39c12; }
+  
+  .balloon {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 90px;
+    background-color: #e74c3c;
+    border-radius: 50%;
+  }
+  
+  .buttons {
+    display: flex;
+    margin-top: 2rem;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: transform 0.2s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  .get-started {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .github {
+    background-color: white;
+    color: #333;
+  }
+
+.icon-title {
+  margin-right: 10px;
+}
+
+.icon-button {
+  margin-right: 5px;
+}
+
+.balloon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
