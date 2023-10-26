@@ -83,7 +83,7 @@ function GeneralKnowledgeEasy() {
   };
 
   const goToNextLevel = () => {
-    router.push("http://localhost:3000/categories/geography/medium");
+    router.push("https://questminds.vercel.app/categories/geography/medium");
   };
 
   if (currentIndex >= questions.length) {

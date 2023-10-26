@@ -21,7 +21,7 @@ function page() {
         Select your Science category to start playing
       </h1>
       <section className="flex flex-col sm:flex-row gap-6 sm:gap-12 justify-center items-center">
-        <Link href="http://localhost:3000/categories/science/computers">
+        <Link href="https://questminds.vercel.app/categories/science/computers">
           <motion.div
             className="bg-white w-32 h-32 sm:w-64 sm:h-64 rounded-md flex flex-col items-center justify-center cursor-pointer p-1"
             initial="initial"
@@ -52,7 +52,7 @@ function page() {
           </motion.div>
         </Link>
 
-        <Link href="http://localhost:3000/categories/science/science&nature">
+        <Link href="https://questminds.vercel.app/categories/science/science&nature">
           <motion.div
             className="bg-white w-32 h-32 sm:w-64 sm:h-64 rounded-md flex flex-col items-center justify-center cursor-pointer p-1"
             initial="initial"

@@ -23,7 +23,7 @@ const FloatingUI = () => {
         A place to relax and train your mind
       </motion.h1>
       <div>
-        <Link href="http://localhost:3000/categories">
+        <Link href="https://questminds.vercel.app/categories">
           <motion.button
             className="py-2 px-8 text-xl rounded-md bg-[#ff51a6] text-white font-semibold shadow-lg transform transition-transform duration-300 hover:scale-105"
             initial={{ scale: 0.8, opacity: 0 }}

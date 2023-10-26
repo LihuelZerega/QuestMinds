@@ -83,7 +83,7 @@ function GeneralKnowledgeEasy() {
   };
 
   const goToNextLevel = () => {
-    router.push("http://localhost:3000/categories/science/computers/medium");
+    router.push("https://questminds.vercel.app/categories/science/computers/medium");
   };
 
   if (currentIndex >= questions.length) {

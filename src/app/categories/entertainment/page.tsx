@@ -24,7 +24,7 @@ function page() {
         Select your Entertainment category to start playing
       </h1>
       <section className="grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-12">
-        <Link href="http://localhost:3000/categories/entertainment/books">
+        <Link href="https://questminds.vercel.app/categories/entertainment/books">
           <motion.div
             className="bg-white w-32 h-32 sm:w-64 sm:h-64 rounded-md flex flex-col items-center justify-center cursor-pointer p-1"
             initial="initial"
@@ -55,7 +55,7 @@ function page() {
           </motion.div>
         </Link>
 
-        <Link href="http://localhost:3000/categories/entertainment/film">
+        <Link href="https://questminds.vercel.app/categories/entertainment/film">
           <motion.div
             className="bg-white w-32 h-32 sm:w-64 sm:h-64 rounded-md flex flex-col items-center justify-center cursor-pointer p-1"
             initial="initial"
@@ -76,7 +76,7 @@ function page() {
           </motion.div>
         </Link>
 
-        <Link href="http://localhost:3000/categories/entertainment/music">
+        <Link href="https://questminds.vercel.app/categories/entertainment/music">
           <motion.div
             className="bg-white w-32 h-32 sm:w-64 sm:h-64 rounded-md flex flex-col items-center justify-center cursor-pointer p-1"
             initial="initial"
@@ -97,7 +97,7 @@ function page() {
           </motion.div>
         </Link>
 
-        <Link href="http://localhost:3000/categories/entertainment/videogames">
+        <Link href="https://questminds.vercel.app/categories/entertainment/videogames">
           <motion.div
             className="bg-white w-32 h-32 sm:w-64 sm:h-64 rounded-md flex flex-col items-center justify-center cursor-pointer p-1"
             initial="initial"

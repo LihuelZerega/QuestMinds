@@ -83,7 +83,7 @@ function AnimalsMedium() {
   };
 
   const goToNextLevel = () => {
-    router.push("http://localhost:3000/categories/animals/hard");
+    router.push("https://questminds.vercel.app/categories/animals/hard");
   };
 
   if (currentIndex >= questions.length) {

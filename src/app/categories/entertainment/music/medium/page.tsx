@@ -83,7 +83,7 @@ function GeneralKnowledgeEasy() {
   };
 
   const goToNextLevel = () => {
-    router.push("http://localhost:3000/categories/entertainment/music/hard");
+    router.push("https://questminds.vercel.app/categories/entertainment/music/hard");
   };
 
   if (currentIndex >= questions.length) {

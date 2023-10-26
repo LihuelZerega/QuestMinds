@@ -83,7 +83,7 @@ function GeneralKnowledgeEasy() {
   };
 
   const goToNextLevel = () => {
-    router.push("http://localhost:3000/categories/politics/hard");
+    router.push("https://questminds.vercel.app/categories/politics/hard");
   };
 
   if (currentIndex >= questions.length) {

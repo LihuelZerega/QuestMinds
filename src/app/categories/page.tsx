@@ -28,7 +28,7 @@ function page() {
         Select your favorite category to start playing
       </h1>
       <section className="grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-12">
-        <Link href="http://localhost:3000/categories/generalknowledge">
+        <Link href="https://questminds.vercel.app/categories/generalknowledge">
           <motion.div
             className="bg-white w-32 h-32 sm:w-64 sm:h-64 rounded-md flex flex-col items-center justify-center cursor-pointer p-1"
             initial="initial"
@@ -59,7 +59,7 @@ function page() {
           </motion.div>
         </Link>
 
-        <Link href="http://localhost:3000/categories/art">
+        <Link href="https://questminds.vercel.app/categories/art">
           <motion.div
             className="bg-white w-32 h-32 sm:w-64 sm:h-64 rounded-md flex flex-col items-center justify-center cursor-pointer p-1"
             initial="initial"
@@ -79,7 +79,7 @@ function page() {
             </div>
           </motion.div>
         </Link>
-        <Link href="http://localhost:3000/categories/animals">
+        <Link href="https://questminds.vercel.app/categories/animals">
           <motion.div
             className="bg-white w-32 h-32 sm:w-64 sm:h-64 rounded-md flex flex-col items-center justify-center cursor-pointer p-1"
             initial="initial"
@@ -99,7 +99,7 @@ function page() {
             </div>
           </motion.div>
         </Link>
-        <Link href="http://localhost:3000/categories/entertainment">
+        <Link href="https://questminds.vercel.app/categories/entertainment">
           <motion.div
             className="bg-white w-32 h-32 sm:w-64 sm:h-64 rounded-md flex flex-col items-center justify-center cursor-pointer p-1"
             initial="initial"
@@ -130,7 +130,7 @@ function page() {
           </motion.div>
         </Link>
 
-        <Link href="http://localhost:3000/categories/geography">
+        <Link href="https://questminds.vercel.app/categories/geography">
           <motion.div
             className="bg-white w-32 h-32 sm:w-64 sm:h-64 rounded-md flex flex-col items-center justify-center cursor-pointer p-1"
             initial="initial"
@@ -151,7 +151,7 @@ function page() {
           </motion.div>
         </Link>
 
-        <Link href="http://localhost:3000/categories/history">
+        <Link href="https://questminds.vercel.app/categories/history">
           <motion.div
             className="bg-white w-32 h-32 sm:w-64 sm:h-64 rounded-md flex flex-col items-center justify-center cursor-pointer p-1"
             initial="initial"
@@ -172,7 +172,7 @@ function page() {
           </motion.div>
         </Link>
 
-        <Link href="http://localhost:3000/categories/politics">
+        <Link href="https://questminds.vercel.app/categories/politics">
           <motion.div
             className="bg-white w-32 h-32 sm:w-64 sm:h-64 rounded-md flex flex-col items-center justify-center cursor-pointer p-1"
             initial="initial"
@@ -193,7 +193,7 @@ function page() {
           </motion.div>
         </Link>
 
-        <Link href="http://localhost:3000/categories/science">
+        <Link href="https://questminds.vercel.app/categories/science">
           <motion.div
             className="bg-white w-32 h-32 sm:w-64 sm:h-64 rounded-md flex flex-col items-center justify-center cursor-pointer p-1"
             initial="initial"

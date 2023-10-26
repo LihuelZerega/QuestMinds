@@ -83,7 +83,7 @@ function GeneralKnowledgeEasy() {
   };
 
   const goToNextLevel = () => {
-    router.push("http://localhost:3000/categories/entertainment/film/hard");
+    router.push("https://questminds.vercel.app/categories/entertainment/film/hard");
   };
 
   if (currentIndex >= questions.length) {

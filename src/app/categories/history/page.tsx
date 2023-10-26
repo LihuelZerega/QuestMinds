@@ -83,7 +83,7 @@ function GeneralKnowledgeEasy() {
   };
 
   const goToNextLevel = () => {
-    router.push("http://localhost:3000/categories/history/medium");
+    router.push("https://questminds.vercel.app/categories/history/medium");
   };
 
   if (currentIndex >= questions.length) {
